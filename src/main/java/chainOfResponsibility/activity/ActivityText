@@ -1,0 +1,34 @@
+tenemos un precio que tiene que tener 3 tipos de descuento : descuento fijo, porcentual y fijo postporcentual.
+
+mi descuento tiene la opción de ser porcentaje o fijo y además de fijo, puede ser pre porcentaje o post porcentaje
+
+el input de entrada es un precio (bigdecimal o double) y una lista de descuentos.
+
+Lo que tienes que hacer es pasar el precio por el procesador de descuentos fijos, luego por el procesador de descuentos y finalmente por el procesador
+de descuentos fijos post porcentuales tendrás que coger el listado de descuentos, aplicar el que toque en el eslabón de la cadena y pasar al siguiente
+eslabón todos los descuentos menos los aplicados.
+
+La clase Descuento puede tener 3 atributos: BigDecimal amount, String kind (que puede ser FIXED o PERCENTAGE)
+boolean postPercentage, es decir, el amount puede ser 18.3 y dependiendo de si es fixed o percentage será descontar 18.3 euros o un 18.3 por ciento.
+
+
+
+
+Precio ---- input double
+descuentos ---- input List
+
+
+precio --- check fixed
+precio --- check discount
+precio --- check disocunt post percentaje
+
+delete from discount List actual discount
+next blockchain -->
+
+Discount class
+
+- double amount
+- String kind
+- boolean postPercentaje
+
+
