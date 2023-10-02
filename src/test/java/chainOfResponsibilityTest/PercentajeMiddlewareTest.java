@@ -19,7 +19,7 @@ class PercentajeMiddlewareTest {
         private Discount percentajeDiscount2 = new Discount(10,DiscountType.PERCENTAJE,false);
         private Discount postPercentajeDiscount = new Discount(3,DiscountType.FIXED,true);
         private List<Discount> discountList = new ArrayList();
-        private double price = 100;
+        private double price = 24560;
 
         @Test
         public void applyDiscountWhenPercentajeDiscountAvailable (){
@@ -27,14 +27,14 @@ class PercentajeMiddlewareTest {
             discountList.add(percentajeDiscount1);
             discountList.add(postPercentajeDiscount);
             double discountPrice = percentajeMiddleware.applyDiscount(price, discountList);
-            assertEquals(90,discountPrice);
+            assertEquals(22104,discountPrice);
         }
         @Test
         public void applyDiscountWhenPercentajeDiscountNotAvailable (){
 
             discountList.add(postPercentajeDiscount);
             double discountPrice = percentajeMiddleware.applyDiscount(price, discountList);
-            assertEquals(100,discountPrice);
+            assertEquals(24560,discountPrice);
         }
         @Test
         public void applyDiscountWhenMultiplePercentajeDiscounts (){
@@ -44,7 +44,7 @@ class PercentajeMiddlewareTest {
             discountList.add(percentajeDiscount2);
             discountList.add(postPercentajeDiscount);
             double discountPrice = percentajeMiddleware.applyDiscount(price, discountList);
-            assertEquals(80,discountPrice);
+            assertEquals(19648,discountPrice);
         }
 
 }

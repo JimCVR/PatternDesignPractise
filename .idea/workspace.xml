@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94378bd6-3ea6-4c7e-b17a-e978125387cf" name="Changes" comment="add Pattern Design practise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/MiddlewareBuilder.java" afterDir="false" />
+    <list default="true" id="94378bd6-3ea6-4c7e-b17a-e978125387cf" name="Changes" comment="add MiddlewareBuilder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/MiddlewareBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/MiddlewareBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/discount/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/discount/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/FixedMiddleware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/FixedMiddleware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PercentajeMiddleware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PercentajeMiddleware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PostPercentajeMiddleware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PostPercentajeMiddleware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/PercentajeMiddlewareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/PercentajeMiddlewareTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/PostPercentajeMiddlewareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/PostPercentajeMiddlewareTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +66,8 @@
       <recent name="chainOfResponsibilityTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostPercentajeMiddlewareTest.applyDiscountWhenPostPercentajeDiscountNotAvailable">
-    <configuration name="DemoTest.chainOfResponnsiblityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.chainOfResponsibilityTest in PatternDesignPractise">
+    <configuration name="DemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PatternDesignPractise" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +77,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="chainOfResponsibilityTest" />
       <option name="MAIN_CLASS_NAME" value="chainOfResponsibilityTest.DemoTest" />
-      <option name="METHOD_NAME" value="chainOfResponnsiblityTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PercentajeMiddlewareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PercentajeMiddlewareTest.applyDiscountWhenPercentajeDiscountAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PatternDesignPractise" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +108,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="chainOfResponsibilityTest" />
       <option name="MAIN_CLASS_NAME" value="chainOfResponsibilityTest.PercentajeMiddlewareTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="applyDiscountWhenPercentajeDiscountAvailable" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostPercentajeMiddlewareTest.applyDiscountWhenPostPercentajeDiscountNotAvailable" />
         <item itemvalue="JUnit.chainOfResponsibilityTest in PatternDesignPractise" />
-        <item itemvalue="JUnit.PercentajeMiddlewareTest" />
         <item itemvalue="JUnit.DemoTest.chainOfResponnsiblityTestWhenNoPercentaje" />
-        <item itemvalue="JUnit.DemoTest.chainOfResponnsiblityTest" />
+        <item itemvalue="JUnit.DemoTest" />
+        <item itemvalue="JUnit.PercentajeMiddlewareTest.applyDiscountWhenPercentajeDiscountAvailable" />
+        <item itemvalue="JUnit.PostPercentajeMiddlewareTest.applyDiscountWhenPostPercentajeDiscountNotAvailable" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696001291203</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add MiddlewareBuilder">
+      <created>1696244083966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696244083966</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,22 +193,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Pattern Design practise" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Pattern Design practise" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PercentajeMiddleware.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PostPercentajeMiddleware.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="add MiddlewareBuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MiddlewareBuilder" />
   </component>
 </project>

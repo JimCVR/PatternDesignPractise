@@ -5,6 +5,8 @@ import chainOfResponsibility.activity.middleware.Middleware;
 import chainOfResponsibility.activity.middleware.PercentajeMiddleware;
 import chainOfResponsibility.activity.middleware.PostPercentajeMiddleware;
 
+import java.util.stream.Stream;
+
 public class MiddlewareBuilder {
     private static Middleware middleware;
 

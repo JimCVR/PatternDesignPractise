@@ -49,6 +49,6 @@ public class PostPercentajeMiddlewareTest {
         discountList.add(fixedDiscount1);
         discountList.add(postPercentajeDiscount1);
         double discountPrice = postPercentajeMiddleware.applyDiscount(price, discountList);
-        assertEquals(100,discountPrice);
+        assertEquals(97,discountPrice);
     }
 }

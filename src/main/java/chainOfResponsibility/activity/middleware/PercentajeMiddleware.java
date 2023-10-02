@@ -10,16 +10,12 @@ public class PercentajeMiddleware extends Middleware {
 
     @Override
     public double applyDiscount(double price, List <Discount> discounts) {
-        double totalDiscount = 0.0;
-        for(Discount actual: discounts){
-            if(actual.getType() == DiscountType.PERCENTAJE){
-                totalDiscount+= actual.getAmount();
-            }
-        }
+        double totalDiscount = discounts
+                .stream()
+                .filter(it -> it.getType() == DiscountType.PERCENTAJE)
+                .mapToDouble(it -> it.getAmount())
+                .sum();
         double newPrice = price * (1 - totalDiscount/100);
-        if(totalDiscount == 0.0)
-            return price;
-        else
-            return checkNext(newPrice, discounts);
+        return checkNext(newPrice, discounts);
     }
 }

@@ -55,6 +55,6 @@ public class DemoTest {
                 new PostPercentajeMiddleware()
         );
         double finalAmount = middleware.applyDiscount(price,discountList);
-        assertEquals(85,finalAmount);
+        assertEquals(82,finalAmount);
     }
 }
