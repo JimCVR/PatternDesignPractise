@@ -4,64 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94378bd6-3ea6-4c7e-b17a-e978125387cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/app/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/buttons/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/buttons/MacOSButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/buttons/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/checkboxes/Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/checkboxes/MacOSCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/checkboxes/WindowsCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/factories/GUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/factories/MacOSFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/factories/WindowsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderPattern/builders/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderPattern/builders/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderPattern/builders/CarManualBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderPattern/cars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderPattern/cars/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderPattern/cars/Manual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderPattern/components/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderPattern/components/GPSNavigator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderPattern/components/Transmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderPattern/components/TripComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderPattern/director/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/ActivityText" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/discount/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/discount/DiscountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/FixedMiddleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/Middleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PercentajeMiddleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PostPercentajeMiddleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/middleware/Middleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/middleware/RoleCheckMiddleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/middleware/ThrottlingMiddleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/middleware/UserExistsMiddleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/buttons/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/buttons/HtmlButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/buttons/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/factory/Dialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/factory/HtmlDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/factory/WindowsDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lombok/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/FixedMiddlewareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/PercentajeMiddlewareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/PostPercentajeMiddlewareTest.java" afterDir="false" />
+    <list default="true" id="94378bd6-3ea6-4c7e-b17a-e978125387cf" name="Changes" comment="add Pattern Design practise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/MiddlewareBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,19 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/jaime/IdeaProjects/ExamenADA/PatternDesignPractise/src/test/java/chainOfResponsibilityTest",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.1150748"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jaime/IdeaProjects/ExamenADA/PatternDesignPractise/src/test/java/chainOfResponsibilityTest&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1150748&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jaime\IdeaProjects\ExamenADA\PatternDesignPractise\src\test\java\chainOfResponsibilityTest" />
@@ -211,6 +157,14 @@
       <option name="presentableId" value="Default" />
       <updated>1695712381282</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Pattern Design practise">
+      <created>1696001291203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696001291203</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +177,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Pattern Design practise" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Pattern Design practise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

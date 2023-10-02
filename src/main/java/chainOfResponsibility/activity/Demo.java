@@ -25,6 +25,12 @@ public class Demo {
                 new PostPercentajeMiddleware()
         );
 
+        Middleware middleware2 = Middleware.link(
+                new FixedMiddleware(),
+                new PercentajeMiddleware(),
+                new PostPercentajeMiddleware()
+        );
+
         double finalAmount = middleware.applyDiscount(100,dis);
         System.out.println(finalAmount);
 
