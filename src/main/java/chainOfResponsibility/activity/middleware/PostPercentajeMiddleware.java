@@ -9,8 +9,8 @@ public class PostPercentajeMiddleware extends Middleware {
     public double applyDiscount(double price, List<Discount> discounts) {
         double totalDiscount = discounts
                 .stream()
-                .filter(it -> it.isPostPercentaje())
-                .mapToDouble(it -> it.getAmount())
+                .filter(Discount::isPostPercentaje)
+                .mapToDouble(Discount::getAmount)
                 .sum();
         double newPrice = price - totalDiscount;
         return checkNext(newPrice, discounts);

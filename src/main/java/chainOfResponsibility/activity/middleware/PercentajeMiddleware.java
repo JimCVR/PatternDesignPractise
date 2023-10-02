@@ -13,7 +13,7 @@ public class PercentajeMiddleware extends Middleware {
         double totalDiscount = discounts
                 .stream()
                 .filter(it -> it.getType() == DiscountType.PERCENTAJE)
-                .mapToDouble(it -> it.getAmount())
+                .mapToDouble(Discount::getAmount)
                 .sum();
         double newPrice = price * (1 - totalDiscount/100);
         return checkNext(newPrice, discounts);

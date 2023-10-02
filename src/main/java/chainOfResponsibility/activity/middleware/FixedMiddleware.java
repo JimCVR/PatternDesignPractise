@@ -11,7 +11,7 @@ public class FixedMiddleware extends Middleware {
         double totalDiscount = discounts
                 .stream()
                 .filter(it -> it.getType() == DiscountType.FIXED && !it.isPostPercentaje())
-                .mapToDouble(it -> it.getAmount())
+                .mapToDouble(Discount::getAmount)
                 .sum();
         double newPrice = price - totalDiscount;
         return checkNext(newPrice, discounts);

@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94378bd6-3ea6-4c7e-b17a-e978125387cf" name="Changes" comment="add MiddlewareBuilder">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/MiddlewareBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/MiddlewareBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/discount/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/discount/Discount.java" afterDir="false" />
+    <list default="true" id="94378bd6-3ea6-4c7e-b17a-e978125387cf" name="Changes" comment="refactor Middlewares">
       <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/FixedMiddleware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/FixedMiddleware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PercentajeMiddleware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PercentajeMiddleware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PostPercentajeMiddleware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibility/activity/middleware/PostPercentajeMiddleware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/DemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/PercentajeMiddlewareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/PercentajeMiddlewareTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/PostPercentajeMiddlewareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chainOfResponsibilityTest/PostPercentajeMiddlewareTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696244083966</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor Middlewares">
+      <created>1696256058944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696256058944</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Pattern Design practise" />
     <MESSAGE value="add MiddlewareBuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MiddlewareBuilder" />
+    <MESSAGE value="refactor Middlewares" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor Middlewares" />
   </component>
 </project>
